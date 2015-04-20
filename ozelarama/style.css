@@ -1,0 +1,54 @@
+#header {
+	float: left;
+	margin-top: 3%;
+	margin-left: 3%; 
+}
+
+.break {
+	font-size: 0;
+	width: 0; height: 0;
+	clear: both
+}
+
+#content {
+	width: 730px;
+	float: center;
+	padding-left: 20%;
+}
+	#content .post {
+		clear: both;
+		padding: 10px 20px;
+	}
+	#content .first {
+		padding-top: 0;
+	}
+		#content .post .l {
+			float: left;
+			width: 200px;
+			font-size: 0.9em;
+			color: #292929;
+			padding-top: 10px;
+		}
+			#content .post .l img {
+				width: 200px; height: 200px;
+				margin-bottom: 15px;
+			}
+			#content .post .l a {
+				text-decoration: none;
+			}
+		#content .post .r {
+			float: right;
+			width: 450px;
+		}
+		#content h2 {
+			font-size: 2.5em;
+			margin-bottom: 15px;
+			color: #292929;
+		}
+			#content h2 a {
+				text-decoration: none;
+			}
+		#content p {
+			line-height: 1.3em;
+			margin-bottom: 10px;
+		}
